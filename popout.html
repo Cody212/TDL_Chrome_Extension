@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        h1{
+            font-family: Verdana;
+         padding: 10px;
+         text-align: center;
+         font-size: large;
+         font-style: normal;
+         font-weight: bold;
+        }
+    body{
+        width: 300px;
+        
+    }
+    
+     .todo-items,
+     .todo-items li{
+         margin :0;
+         padding:0;
+         list-style: none;
+         font-family: Verdana;
+     }
+     .todo-items li{
+         padding:10px;
+         border-bottom: 2px solid grey;
+         display:flex; 
+         justify-content: space-between;
+    }
+    .todo-items li:hover{
+        background: #cecbd4; 
+    }
+    .todo-items li.done .item{
+         text-decoration: line-through; 
+        }
+    .todo-items div span{
+        margin:5px; 
+        font-size:1em;
+        cursor: pointer;
+    }
+    .new-item{
+        margin: 15px;
+    }
+    .button{
+        margin: 1px;
+        border-radius: 12px;
+        background-color: #c0b9c4;
+        
+    }
+   
+    
+
+    </style>
+</head>
+<body>
+    <h1>Popup To Do List</h1>
+    
+   <!-- <button type="button" class="create-todo btn-secondary">New Task</button> -->
+
+    
+    
+<div class="new-item mb-3">
+    <input type="text"><button class="button btn-outline-secondary " type="button">Add Task</button>
+    
+  </div>
+ 
+
+  
+    <ul class="todo-items">
+    </ul>
+   
+    
+
+    <script src="popout.js"></script>
+</body>
+</html>

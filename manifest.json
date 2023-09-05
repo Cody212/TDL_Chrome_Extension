@@ -1,0 +1,15 @@
+{
+    "name":"To-Do-List",
+    "version":"1.0",
+    "description":"A simple pop out To Do List",
+    "action":{
+        "default_icon": "TDL.png",
+        "icons": {
+            "16":"TDL.png"
+        }, 
+        "default_title":"To Do",
+        "default_popup":"popout.html"
+    },
+    "manifest_version":3
+
+}
